@@ -1,10 +1,10 @@
 @import url("estilos/header.css");
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
 :root{
-   --amarelo:#d7c74df7; --fundo-azul:#23239de4;
-   --lilas:#a510a5; --fonte-projeto:"Dosis";
+   --azul:#45a3daf7; --fundo-azul:#141458;
+   --verde:#8fc00a; --fonte-projeto:"Dosis";
 }
 body{
-    background-color: var(--amarelo);
+    background-color: var(--azul);
     margin: 0; font-family: var(--fonte-projeto);
 }
