@@ -1,0 +1,60 @@
+.cabecalho{
+    background-color: var(--fundo-azul);
+    margin: 0;
+}
+.container{
+    display: flex; align-items: center;
+}
+.container_imagem{
+    width: 120px; height: 120px;
+}
+.container_título, .container_imagem, .container_frase{
+    padding: 0.1em; color: white;
+}
+.container_título , .container_frase{
+    display: none;
+}
+.cx-texto{
+   display: flex; justify-content: center;
+}
+.texto-mobile{
+   display: block; font-size: 50px;
+   margin-top: 3em; padding: 1em;
+}
+.texto-desktop, .texto-tablet{
+    display: none;
+}
+@media screen and (min-width: 820px) {
+    .container_título{
+        font-size: 30px; display: inline-block;
+    }
+    .container_título{
+     font-weight: 400;
+}
+    .texto-tablet{
+      display: block; font-size: 70px; color: white;
+    margin-top: 3em; padding: 1em;
+}
+    .texto-desktop, .texto-mobile{
+      display: none;}
+}
+@media screen and (min-width: 1728px){
+    .container_frase{
+      font-size: 50px;
+      display: inline-block;
+    }
+    .container_frase{
+      font-weight: 400;
+      padding-left: 5em;
+    }
+    .texto-desktop{
+      display: block;
+      font-size: 90px;
+      color: var(--lilas);
+      margin-top: 3em;
+      padding: 1em;
+    }
+    .texto-tablet, .texto-mobile{
+        display: none;
+    }
+}
